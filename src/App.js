@@ -11,28 +11,28 @@ import React, { useReducer } from "react";
 const initialState = {
   questions: [
     {
-      question: "Which is the most popular JavaScript framework?",
-      options: ["Angular", "React", "Svelte", "Vue"],
+      question: "Identify the pure object-oriented programming language among the following?",
+      options: ["C++", "SmallTalk", "Java", "Python"],
       correctOption: 1,
       points: 10,
     },
     {
-      question: "Which company invented React?",
-      options: ["Google", "Apple", "Netflix", "Facebook"],
-      correctOption: 3,
+      question: "Identify the option below which is not a property of the object?",
+      options: ["Names", "Attributes", "Identity", "Properties"],
+      correctOption: 0,
       points: 10,
     },
     {
-      question: "What's the fundamental building block of React apps?",
-      options: ["Components", "Blocks", "Elements", "Effects"],
+      question: "Identify the option below which cannot be used with the term “virtual”.?",
+      options: ["Constructor", "Destructor", "Class", "Member Function"],
       correctOption: 0,
       points: 10,
     },
     {
       question:
-        "What's the name of the syntax we use to describe the UI in React components?",
-      options: ["FBJ", "Babel", "JSX", "ES2015"],
-      correctOption: 2,
+        "Identify the operators which cannot be overloaded ?",
+      options: [":?", ".(dot operator)", ">>", "Both A and B"],
+      correctOption: 3,
       points: 10,
     },
     {
